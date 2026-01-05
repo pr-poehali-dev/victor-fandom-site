@@ -33,6 +33,15 @@ export default function Index() {
     { id: 'contacts', label: 'Контакты', icon: 'Mail' },
   ];
 
+  const galleryImages = [
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/fc96b0da-3758-47bf-a0f6-b0ff966566f9.jpg',
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1681c4ea-a816-4926-ab97-e2cec3c73b07.jpg',
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1e81c58e-03eb-4fdf-89a4-9c6053c4093c.jpg',
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/fc96b0da-3758-47bf-a0f6-b0ff966566f9.jpg',
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1681c4ea-a816-4926-ab97-e2cec3c73b07.jpg',
+    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1e81c58e-03eb-4fdf-89a4-9c6053c4093c.jpg',
+  ];
+
   const memes = [
     { id: 'meme1', title: 'Когда нашёл баг в проде', image: '/placeholder.svg' },
     { id: 'meme2', title: 'Пятница 17:59', image: '/placeholder.svg' },
@@ -188,17 +197,17 @@ export default function Index() {
               <p className="text-muted-foreground">Фотографии президента фандома</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6].map((item) => (
-                <Card key={item} className="glass-card overflow-hidden hover-scale cursor-pointer group">
+              {galleryImages.map((imgUrl, idx) => (
+                <Card key={idx} className="glass-card overflow-hidden hover-scale cursor-pointer group">
                   <div className="aspect-square bg-gradient-to-br from-purple-500/20 to-pink-500/20 relative">
                     <img 
-                      src="/placeholder.svg" 
-                      alt={`Фото ${item}`}
+                      src={imgUrl} 
+                      alt={`Фото ${idx + 1}`}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                       <div className="text-white">
-                        <p className="font-bold">Фотография #{item}</p>
+                        <p className="font-bold">Фотография #{idx + 1}</p>
                         <p className="text-sm text-white/80">Нажмите для просмотра</p>
                       </div>
                     </div>
