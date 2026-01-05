@@ -105,7 +105,11 @@ export default function Index() {
                   Легендарная личность, вдохновляющая тысячи поклонников по всему миру
                 </p>
                 <div className="flex gap-4 justify-center flex-wrap">
-                  <Button size="lg" className="bg-white text-purple-600 hover:bg-white/90">
+                  <Button 
+                    size="lg" 
+                    className="bg-white text-purple-600 hover:bg-white/90"
+                    onClick={() => window.open('https://t.me/fandom_beZdeneshvix', '_blank')}
+                  >
                     <Icon name="Heart" size={20} className="mr-2" />
                     Присоединиться
                   </Button>
