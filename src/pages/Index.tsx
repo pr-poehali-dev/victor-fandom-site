@@ -363,33 +363,13 @@ export default function Index() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="flex items-center gap-4 p-6 rounded-xl bg-gradient-to-r from-purple-500/10 to-transparent border border-purple-500/20 hover-scale cursor-pointer">
-                    <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center">
-                      <Icon name="Mail" size={28} className="text-white" />
-                    </div>
-                    <div>
-                      <div className="font-bold text-lg">Email</div>
-                      <div className="text-muted-foreground">admin@fandom.ru</div>
-                    </div>
-                  </div>
-
                   <div className="flex items-center gap-4 p-6 rounded-xl bg-gradient-to-r from-pink-500/10 to-transparent border border-pink-500/20 hover-scale cursor-pointer">
                     <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center">
                       <Icon name="MessageCircle" size={28} className="text-white" />
                     </div>
                     <div>
                       <div className="font-bold text-lg">Telegram</div>
-                      <div className="text-muted-foreground">@fandom_chat</div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-4 p-6 rounded-xl bg-gradient-to-r from-blue-500/10 to-transparent border border-blue-500/20 hover-scale cursor-pointer">
-                    <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center">
-                      <Icon name="Send" size={28} className="text-white" />
-                    </div>
-                    <div>
-                      <div className="font-bold text-lg">VK</div>
-                      <div className="text-muted-foreground">vk.com/fandom</div>
+                      <div className="text-muted-foreground">@frontistilov</div>
                     </div>
                   </div>
 
