@@ -43,10 +43,10 @@ export default function Index() {
   ];
 
   const memes = [
-    { id: 'meme1', title: 'Когда нашёл баг в проде', image: '/placeholder.svg' },
-    { id: 'meme2', title: 'Пятница 17:59', image: '/placeholder.svg' },
-    { id: 'meme3', title: 'Code review be like', image: '/placeholder.svg' },
-    { id: 'meme4', title: 'Deploy на продакшн', image: '/placeholder.svg' },
+    { id: 'meme1', title: 'Классический образ президента', image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-05 225001.png' },
+    { id: 'meme2', title: 'Новогоднее настроение', image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-05 225011.png' },
+    { id: 'meme3', title: 'Стильный look', image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-05 225020.png' },
+    { id: 'meme4', title: 'Легендарное фото', image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-05 003118.png' },
   ];
 
   const stats = [
