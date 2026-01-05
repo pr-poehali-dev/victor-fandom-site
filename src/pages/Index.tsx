@@ -34,12 +34,12 @@ export default function Index() {
   ];
 
   const galleryImages = [
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/fc96b0da-3758-47bf-a0f6-b0ff966566f9.jpg',
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1681c4ea-a816-4926-ab97-e2cec3c73b07.jpg',
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1e81c58e-03eb-4fdf-89a4-9c6053c4093c.jpg',
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/fc96b0da-3758-47bf-a0f6-b0ff966566f9.jpg',
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1681c4ea-a816-4926-ab97-e2cec3c73b07.jpg',
-    'https://cdn.poehali.dev/projects/b385eb13-bee5-4964-8788-c12bc08f97dc/files/1e81c58e-03eb-4fdf-89a4-9c6053c4093c.jpg',
+    'https://cdn.poehali.dev/files/Picsart_26-01-05_00-19-14-960.jpg',
+    'https://cdn.poehali.dev/files/photo_2026-01-04_23-59-41.jpg',
+    'https://cdn.poehali.dev/files/photo_2026-01-04_23-59-56.jpg',
+    'https://cdn.poehali.dev/files/photo_2026-01-04_23-59-51.jpg',
+    'https://cdn.poehali.dev/files/Снимок экрана 2026-01-05 224953.png',
+    'https://cdn.poehali.dev/files/photo_2026-01-04_23-59-41.jpg',
   ];
 
   const memes = [
